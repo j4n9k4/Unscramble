@@ -43,11 +43,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-@Preview(showSystemUi = true)
+
+@Preview
 @Composable
 fun GamePreview()
 {
-    UnscrambleTheme {
-        GameScreen()
-    }
+    GameScreen()
 }
